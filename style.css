@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu
+{
+    padding: 15px;
+    background-color:rgb(249,249,249);
+    overflow: auto;
+}
+.menu ul li
+{
+    float:right;
+    margin-right: 50px;
+    list-style: none;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    overflow:auto;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:white;
+    
+}
+.header .logo
+{
+     float:left;    
+     margin-left: 65px;
+     margin-top: 30px; 
+}
+.header ul li
+{
+    float: left;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.header .menubar
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 27px;
+
+}
+.header .menubar .menu1
+{   
+    margin-right: 30px;
+}
+.header .menubar .menu2
+{
+    margin-right: 30px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color:yellowgreen;
+    color: white;
+    margin-bottom: 10px;
+}
+.header .menubar .menu3
+{
+    margin-right: 30px;
+}
+.header .menubar .menu2:hover
+{
+    background-color:rgb(176, 226, 100);
+}
+.container-banner
+{
+    padding: 180px;
+    background-image: url(banner.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
+    padding-bottom: 50px;
+   
+}
+.container-banner h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(56, 56, 110);
+}
+.container-banner p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(56, 56, 110);
+    font-size: 1.2rem;
+}
+.container-banner .menu4
+{
+    
+    padding: 10px 20px;
+    margin-top: 30px;  
+    border-radius: 20px;
+    font-weight: bold;
+    color:rgb(56, 56, 110);
+}
+.container-banner .menu4:hover
+{
+    color: white;
+    background-color:rgb(56, 56, 110);
+}
+.blocks
+{
+ 
+    padding: 150px;
+    overflow: auto;
+    margin-left: 90px;
+}
+.blocks img
+{
+    width: 100px;
+ 
+}
+
+.block1 
+{
+   
+    float: left;
+    padding: 40px;
+}
+   
+.block2
+{
+    
+    float: left;
+    padding: 38.8px;
+    
+}
+.block3
+{
+    float: left;
+    padding: 40px;
+}
+.block1,.block2,.block3
+{
+    border-bottom: 1px solid rgb(187, 180, 166);
+}
+.box
+{
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box .p1
+{
+    font-weight:bold;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+.box .button2
+{
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    color:  rgb(87, 87, 180);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size:large;
+    border: 1px solid blue;
+}
+.box .button2:hover
+{
+    color: rgb(252, 252, 252);
+    background-color: rgb(87, 87, 180);
+}
+.companies
+{
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 243, 243, 0.986);
+    margin-top: 30px;
+    
+}
+.companies .headings
+{
+    
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row1 td
+{
+    
+    padding: 38px;
+    
+}
+.row2 td
+{
+   
+    padding: 38px;
+    
+}
+.row3 td
+{
+
+    padding: 37px;
+}
+.companies .btn
+{
+    padding: 13px 30px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color:rgb(87, 87, 180);
+    border: 2px solid rgb(87, 87, 180);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.companies .btn:hover
+{
+    background-color:  rgb(87, 87, 180);
+    color: white;
+}
+.comp-logos
+{
+    margin-left: 80px;
+}
+.gallery
+{
+    overflow: auto;
+    padding: 50px   ;
+}
+.gallery .computer
+{
+    margin-left: 200px;
+    margin-right: 700px;
+    text-align: center;
+}
+.gallery .mobile
+{
+    text-align: center;
+    float: right;
+    margin-top: -343px;
+    margin-right: 300px;
+}
+.press
+{
+    padding: 200px;
+   
+    
+}
+.press .colu1 td
+{
+    padding: 10px 20px;
+    margin-left: -30px; 
+    text-align: center;
+    
+}
+.press .colu2 td
+{
+  
+    padding: 10px 20px;
+    text-align: center;
+}
+.press td a
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+.press td a:hover
+{
+    color: blue;
+}
+.heading1
+{
+ 
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: -150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: rgb(87, 87, 180);
+}
+.press .btn3
+{
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-left: 435px;
+    color:  rgb(87, 87, 180);
+    border-radius: 50px;
+    border: 1px solid  rgb(87, 87, 180);
+    font-weight: bolder;
+    background-color: transparent;
+}
+.container
+{
+    padding: 10px 200px;
+}
+.press .btn3:hover
+{
+    color: white;
+    background-color:rgb(87, 87, 180) ;
+}
+.block4 .heading5
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.container .container-row td img
+{
+    width: 263.49px;
+    height: 104.6px;
+}
+.container .container-row td
+{
+    padding: 10px 10px;
+}
+.container .container-row td h5
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    
+}
+.container .container-row td .btnb1
+{
+    padding: 10px 8px;
+    border-radius: 50px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+}
+.container .container-row td .btnb1:hover
+{
+    background-color: rgb(170, 255, 0);
+}
+.container2
+{
+    
+    padding: 10px;
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+.container2 button
+{
+    padding: 10px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border:none;
+    font-weight: bolder;
+    color: cornflowerblue;
+    background-color: white;
+}
+.container2 button:hover
+{
+    color: white;
+    background-color:cornflowerblue;
+}
+.footer
+{
+    background-color: rgb(247, 245, 245);
+    overflow: auto;
+}
+.footer .top img
+{
+    margin-left: 60px;
+   
+}
+.footer .mid .row7 td
+{
+    
+    padding: 10px 40px;
+}
+.footer .mid .row7 .ta1
+{
+    background-color: white;
+}
+.footer .mid td a
+{
+    text-decoration: none;
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer .mid td a:hover
+{
+    color: rgb(129, 170, 68);
+}
+.ddbox
+{
+    background-color: gray;
+}
+.ul2 li
+{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+.ul2
+{
+    margin-top: -35px;
+    margin-left: 570px;
+}
+.ul2 li a
+{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul2 li a:hover
+{
+    color: rgb(129, 170, 68);
+}
+hr
+{
+    margin-left: 120px;
+    margin-right: 120px;
+}
